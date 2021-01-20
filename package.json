@@ -1,0 +1,21 @@
+{
+  "name": "actual-archive-category",
+  "version": "1.0.0",
+  "description": "Archive a category in actual budget app by moving and prefix transactions",
+  "main": "index.js",
+  "scripts": {
+    "archive": "actual-archive-category",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "actual-archive-category": "index.js"
+  },
+  "keywords": [
+    "actual-budget"
+  ],
+  "author": "Ravi Sharma (rvisharma91@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@actual-app/api": "^1.0.9"
+  }
+}
